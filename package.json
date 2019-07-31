@@ -1,0 +1,23 @@
+{
+  "name": "object-util",
+  "version": "1.0.0",
+  "description": "A JavaScript object utility library",
+  "main": "object-util.js",
+  "repository": "https://github.com/jimmyfunghk/object-util.git",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha test/*.js"
+  },
+  "keywords": [
+    "object",
+    "utility",
+    "object-util",
+    "json-util"
+  ],
+  "author": "Jimmy Fung",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "5.1.1",
+    "nyc": "11.7.3",
+    "chai": "4.1.2"
+  }
+}
